@@ -5377,7 +5377,6 @@ GameObject:
   m_Component:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
-  - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
@@ -5386,21 +5385,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &963194226
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2595bb5230338d048911ac32a8c32b50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  offset: {x: 0, y: 0, z: 0}
-  targetFollow: {fileID: 0}
-  transitionSpeed: 3
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -11825,7 +11809,6 @@ GameObject:
   - component: {fileID: 1868110036}
   - component: {fileID: 1868110035}
   - component: {fileID: 1868110040}
-  - component: {fileID: 1868110041}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -11940,18 +11923,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _winUI: {fileID: 1963300850}
   _lostUI: {fileID: 476124722}
---- !u!114 &1868110041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1868110034}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b47127ab3116bf4a895d07c5fbacb41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1878831548 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5672780314223658493, guid: b58ed5c8620685f489677710f8f887a7, type: 3}
